@@ -10,10 +10,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement /* Manager for transactions */
 @EntityScan(basePackages = { "com.company.entities" }) /* Explicit package of entities (more performance) */
 @EnableJpaRepositories(basePackages = { "com.company.repositories" }) /* Explicit package of repositories */
-public class OrkideaApplication {
+public class ProductBuyWebSystemRestfulApi {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OrkideaApplication.class, args);
+		SpringApplication.run(ProductBuyWebSystemRestfulApi.class, args);
 	}
 
 }

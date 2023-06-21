@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.company</groupId>
-	<artifactId>productbuywebsystemrest</artifactId>
+	<artifactId>ProductBuyWebSystemRestfulApi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>product</name>
 	<description>Design for product buy web system</description>
